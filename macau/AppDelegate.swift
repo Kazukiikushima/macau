@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  macau
-//
-//  Created by 河本泰知 on 2017/07/13.
-//  Copyright © 2017年 ut-develop. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -43,4 +35,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
