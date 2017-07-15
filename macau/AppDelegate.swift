@@ -1,4 +1,5 @@
 import UIKit
+import ChameleonFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -7,6 +8,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        UINavigationBar.appearance().barTintColor = FlatYellow()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : ContrastColorOf(backgroundColor: FlatYellow(), returnFlat: true),
+                                                            NSFontAttributeName: UIFont.init(name: "Helvetica Bold Oblique", size: 21)!]
         // Override point for customization after application launch.
         return true
     }
