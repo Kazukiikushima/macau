@@ -31,6 +31,7 @@
 		5209D0EA1F17A92600CBDA53 /* ChangeSeatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeSeatsViewController.swift; sourceTree = "<group>"; };
 		5209D0EC1F17A93F00CBDA53 /* PairingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
 		5209D0EE1F17A96100CBDA53 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		52C22F791F1B125C001CA8DB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = macau/MyPlayground.playground; sourceTree = "<group>"; };
 		5B72C8C8B97905B5EA1B40A3 /* Pods-macau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macau.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macau/Pods-macau.debug.xcconfig"; sourceTree = "<group>"; };
 		770250DFBF037AF69F1640B1 /* Pods_macau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_macau.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B48DAD71C80B30E9A437E5 /* Pods-macau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macau.release.xcconfig"; path = "Pods/Target Support Files/Pods-macau/Pods-macau.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		5209D0CA1F17A89500CBDA53 = {
 			isa = PBXGroup;
 			children = (
+				52C22F791F1B125C001CA8DB /* MyPlayground.playground */,
 				5209D0D51F17A89600CBDA53 /* macau */,
 				5209D0D41F17A89600CBDA53 /* Products */,
 				007A308DB1A6543A17A72030 /* Pods */,
@@ -392,6 +394,7 @@
 				5209D0E71F17A89600CBDA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
