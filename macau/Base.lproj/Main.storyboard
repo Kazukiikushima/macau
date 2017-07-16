@@ -57,9 +57,27 @@
                     <view key="view" contentMode="scaleToFill" id="nS1-Ib-Ing">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WxI-rd-aiF">
+                                <rect key="frame" x="87" y="283" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="fV0-R8-i7i"/>
+                                    <constraint firstAttribute="height" constant="100" id="uP5-1u-hm2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="おじさん"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WxI-rd-aiF" firstAttribute="centerX" secondItem="nS1-Ib-Ing" secondAttribute="centerX" id="bz3-pZ-JkO"/>
+                            <constraint firstItem="WxI-rd-aiF" firstAttribute="centerY" secondItem="nS1-Ib-Ing" secondAttribute="centerY" id="hkq-Ik-Wo6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pDK-kl-mef"/>
+                    <connections>
+                        <outlet property="ojisanButton" destination="WxI-rd-aiF" id="kyx-lL-PFi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1i-WU-Jw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
